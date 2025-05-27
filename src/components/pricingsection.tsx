@@ -51,14 +51,14 @@ const pricingData = [
 export default function PricingSection() {
   return (
     <section className="w-full mx-auto px-4 sm:px-8 py-20 text-center bg-[#ececec]">
-      {/* Heading like Feature button */}
+      
       <button
         disabled
         className="bg-[#BEDC38] text-black font-medium px-6 py-2 rounded-[10px] text-[13px] mb-4 cursor-default inline-block"
       >
         Pricing
       </button>
-      {/* Subtitle */}
+      
          <h2 className="text-[30px] font-semibold text-black mb-2 ml-2 sm:ml-5 text-center">What we offer our users</h2>
              <p className="text-[#6b7280] font-medium mb-12  ml-2 sm:ml-5 text-center ">
             Lorem ipsum dolor sit amet consectetur. Ac iaculis in nullam etiam. At non cursus
@@ -91,7 +91,7 @@ export default function PricingSection() {
                          lg:w-[330px]"
               style={{ height: 462 }}
             >
-              {/* List with checkmarks */}
+              
               <ul className="flex-1 p-3 space-y-4 text-left text-black ml-2 font-medium text-[13px]">
                 {list.map((item, idx) => (
                   <li key={idx} className="flex items-center text-black">
@@ -120,10 +120,10 @@ export default function PricingSection() {
                   </p>
                 </div>
 
-                {/* Description */}
+                
                 <p className="text-[#6b7280] text-[13px] font-normal text-left mt-3">{desc}</p>
 
-                {/* Get Started Button */}
+                
                 <button
                   className="font-medium rounded-[100px] text-[13px] px-8 py-3 mt-3 hover:bg-green-700 transition"
                   type="button"

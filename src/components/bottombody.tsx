@@ -79,10 +79,10 @@ export default function BottomBody() {
         </div>
       </div>
 
-      {/* FULL-WIDTH CTA CARD */}
+      
       <div className="w-full flex justify-center mt-12 md:mt-65">
         <div className="max-w-[1212px] md:max-h-[270px] bg-[#ECECEC] rounded-[60px] flex flex-col md:flex-row items-center gap-10 p-6 md:p-0">
-          {/* LEFT - Image */}
+          
           <div className="flex-1 w-full md:w-auto">
             <Image
               src="/assets/iphone.png"
@@ -94,7 +94,7 @@ export default function BottomBody() {
             />
           </div>
 
-          {/* RIGHT - Text and Button */}
+          
           <div className="flex flex-col justify-center max-w-full md:max-w-[600px] text-center md:text-left">
             <h3 className="text-[30px] font-semibold text-black mb-2">
               Why use Peejay for organizing of task
@@ -109,7 +109,7 @@ export default function BottomBody() {
         </div>
       </div>
 
-      {/* IMAGE ROW - hidden on screens smaller than md */}
+      
       <div className="mt-40 w-full relative z-20 hidden md:flex justify-center flex-wrap items-center gap-[50px]">
         {[
           '/assets/iphone2.svg',
@@ -128,7 +128,7 @@ export default function BottomBody() {
         ))}
       </div>
 
-      {/* PEEJAY TEXT WITH OVERLAY - only visible on xl and above */}
+      
       <div className="relative -mt-20 h-[220px] z-0 hidden md:flex justify-center items-center w-full">
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-white via-white/90 to-transparent z-0" />

@@ -68,7 +68,7 @@ export default function MidBody() {
       className="bg-white pt-24 pb-12 px-6 sm:px-8 mt-25"
       style={{ borderTopLeftRadius: '100px', borderTopRightRadius: '100px' }}
     >
-      {/* Top Rounded Section */}
+    
       <div>
         <div className="max-w-7xl mx-auto text-center px-4 sm:px-0">
           <button
@@ -200,7 +200,7 @@ export default function MidBody() {
                   }}
                 />
 
-                {/* Pills */}
+                
                 <div className="relative z-20 flex flex-col justify-center items-center gap-4 p-6 h-full">
                   <div className="bg-white px-4 py-1 rounded-full text-sm font-medium w-fit">
                     Project Management
